@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Chrome Suite" parallel="tests">
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://mail.google.com"/>
+        <classes>
+            <class name="C:\Users\USER\Desktop\java-testing\testng\src\test\java\test\ca3.java"/>
+        </classes>
+    </test>
+</suite>
